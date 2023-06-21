@@ -39,7 +39,7 @@ function submit_by_id() {
         if(letters.test(FirstName) && letters.test(LastName))
         {
            
-           window.location.href='http://127.0.0.1:3000/SBA-HTML_JS/User_login.html';
+           window.location.href='User_login.html';
            alert('Registration Sucessful');
            return true;
         }
